@@ -1,0 +1,39 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "laying the foundation",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npm build parcel index.html",
+    "test": "jest"
+  },
+  "author": "aman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/react": "^14.2.1",
+    "autoprefixer": "^10.4.18",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.1"
+  }
+}

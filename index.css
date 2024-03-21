@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    border: 1px solid black;
+    /* background-color: rgb(221, 217, 217); */
+}
+.logo {
+    width: 100px;
+    height: 80px;
+}
+.nav-items > ul {
+    font-weight: 600;
+    display: flex;
+    padding: 20px;
+}
+.nav-items > ul >li {
+    font: bold;
+    list-style: none;
+    padding: 0px 20px;
+}
+.nav-items > ul >li > a{
+    text-decoration: none;
+    color: black;
+}
+.body {
+    /* background-color: yellow; */
+    border: 2px solid black;
+    padding: 20px 50px;
+}
+
+.res-card {
+    border: 1px solid rgb(59, 57, 57);
+    box-shadow: 3px 3px 5px rgb(59, 57, 57);
+    width: 250px;
+    /* background-color: red; */
+    border-radius: 8px;
+    transition: all linear 120ms;
+    margin: 15px;
+}
+.res-card:hover {
+    transform: scale(0.95);
+}
+.res-image-div > img {
+    object-fit: fill;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.res-info {
+  padding: 10px 20px;
+  line-height: 21px;
+  overflow-wrap: break-word;
+  height: 180px;
+}
+.res-info > h2 {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.res-info > h3 {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.res-info  p{
+   font-size: 15px;
+   color: rgb(43, 36, 36);
+}
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.res-container a{
+    text-decoration: none;
+    color: black;
+}
+.filter {
+    padding: 8px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin: 18px;
+    height: 300px;
+    width: 200px;
+    background-color: #bcbaba;
+    border-radius: 5px;
+}
+.login-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: -6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+    gap: 50px;
+}
+.search > input{
+   padding: 5px;
+   outline: none;
+   border: 2px solid black;
+   border-radius: 4px;
+   color: black;
+   font-weight: 500;
+   font-size: 20px;
+   margin-right: 8px;
+}
+.search > button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 4px;
+}
+.resMenu{
+    margin: 50px;
+}
+.user{
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.about{
+    margin: 30px;
+}
+.github-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.promoted-label {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+    z-index: 10;
+}
+.resMenu-header{
+     text-align: center;
+}
+.resMenu-header h1 {
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 6px auto;
+    font-size: 40px;
+    text-decoration: none;
+    /* background-color: black; */
+    /* color: white; */
+    padding: 6px;
+    width: 50%;
+    /* border-radius: 6px; */
+}
+.resMenu-header p {
+    color: rgb(40, 36, 36);
+    font-weight: 600;
+    padding: 6px;
+}
+.resCat-title {
+    font-weight: bold;
+}
+.resCat-header {
+    
+    background-color: rgb(221, 217, 217);
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 8px auto;
+    box-shadow: 2px 2px rgb(221, 217, 217);
+}
+.resCat-header-1 {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.itemList-parent {
+    margin: 10px;
+    padding: 8px;
+    border-bottom: 2px solid rgb(101, 99, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemList-first span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.itemList-second img{
+   height: 90px;
+   width: 90px;
+   border-radius: 6px;
+}
+.username-label {
+    padding: 7px;
+    margin: 6px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    border-style: none;
+}
+.username-input {
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+}
+.user {
+    padding: 4px;
+    margin: 6px;
+    border-style: none;
+}
+.ListItem-button {
+    padding: 8px;
+    margin: 6px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 20px;
+}
+.bag-heading {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bag-button {
+    padding: 8px;
+    margin: 7px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bag-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+.bag-second {
+    width: 50%;
+    margin: 10px auto;
+}
+.cart-icon > span {
+    position: absolute;
+    top: 20px;
+}
+.list-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+   padding: 10px;
+   border: 2px solid rgb(109, 106, 106);
+   margin: 20px auto;
+   width: 40%;
+}
+.contact-heading {
+    margin: 10px auto;
+    color: rgb(32, 30, 30);
+    text-align: center;
+}
+.contact-form {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-form button {
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.contact-form-div {
+    margin: 12px;
+    text-align: left;
+}
+.contact-form-div label {
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+.contact-form-div input {
+    padding: 3px;
+    color: black;
+    border: 1px solid black;
+}
+
